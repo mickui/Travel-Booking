@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Booking Requests" max_length="40" name="x_67438_travel_boo_booking_requests" sizeclass="2" type="collection">
+    <element extends="task" label="Booking Requests" max_length="40" name="x_67438_travel_boo_booking_requests" type="collection">
         <element label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
         <element label="From" max_length="40" name="from" type="string"/>
         <element default="False" label="return" max_length="40" name="return" type="boolean"/>
