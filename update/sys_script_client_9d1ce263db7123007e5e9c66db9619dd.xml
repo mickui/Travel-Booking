@@ -13,7 +13,7 @@
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
    if ( ! g_form.getBooleanValue("u_is_return")) {
-	   g_form.setDisplay("caller",false);
+	   g_form.setDisplay("to",false); //destination
    }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -22,7 +22,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9d1ce263db7123007e5e9c66db9619dd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Hide return field on load</sys_name>
         <sys_overrides/>
         <sys_package display_value="Travel Booking Application" source="x_67438_travel_boo">1534704fdb3123007e5e9c66db9619a0</sys_package>
@@ -30,7 +30,7 @@
         <sys_scope display_value="Travel Booking Application">1534704fdb3123007e5e9c66db9619a0</sys_scope>
         <sys_update_name>sys_script_client_9d1ce263db7123007e5e9c66db9619dd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-24 03:27:40</sys_updated_on>
+        <sys_updated_on>2018-11-24 05:13:32</sys_updated_on>
         <table>x_67438_travel_boo_booking_requests</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
