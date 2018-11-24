@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide return field on load</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if ( ! g_form.getBooleanValue("u_is_return")) {
+	   g_form.setDisplay("caller",false);
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-22 04:00:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9d1ce263db7123007e5e9c66db9619dd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Hide return field on load</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Booking Application" source="x_67438_travel_boo">1534704fdb3123007e5e9c66db9619a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking Application">1534704fdb3123007e5e9c66db9619a0</sys_scope>
+        <sys_update_name>sys_script_client_9d1ce263db7123007e5e9c66db9619dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-24 03:27:40</sys_updated_on>
+        <table>x_67438_travel_boo_booking_requests</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

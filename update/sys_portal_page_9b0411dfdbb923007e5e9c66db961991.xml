@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2018-11-24 03:52:35">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_overview">1a656051d7030200eaae68150e610399</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-21 02:54:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b0411dfdbb923007e5e9c66db961991</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Travel Booking Portal Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Booking Application" source="x_67438_travel_boo">1534704fdb3123007e5e9c66db9619a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking Application">1534704fdb3123007e5e9c66db9619a0</sys_scope>
+        <sys_update_name>sys_portal_page_9b0411dfdbb923007e5e9c66db961991</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-21 02:59:07</sys_updated_on>
+        <title>Travel Booking Portal Page</title>
+        <user/>
+        <view>travel_booking_portal_page</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="Travel Booking Portal Page">9b0411dfdbb923007e5e9c66db961991</page>
+                <summary/>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                <sys_id>59695193dbf923007e5e9c66db9619ab</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">59695193dbf923007e5e9c66db9619ab</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>5d695193dbf923007e5e9c66db9619ac</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>9b0411dfdbb923007e5e9c66db961991</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>name</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">59695193dbf923007e5e9c66db9619ab</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>d1695193dbf923007e5e9c66db9619ac</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>example_cool_clock</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">59695193dbf923007e5e9c66db9619ab</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>d5695193dbf923007e5e9c66db9619ac</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>World Clocks</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">59695193dbf923007e5e9c66db9619ab</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>d9695193dbf923007e5e9c66db9619ab</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderJavascript</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer_id</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">59695193dbf923007e5e9c66db9619ab</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>dd695193dbf923007e5e9c66db9619ab</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>7c3525050a0a0ab8000968f6d8c87ea0</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="Travel Booking Portal Page">9b0411dfdbb923007e5e9c66db961991</page>
+                <summary/>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                <sys_id>91695193dbf923007e5e9c66db9619aa</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619aa</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>15695193dbf923007e5e9c66db9619aa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>9d3434cfdb3123007e5e9c66db9619fc</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619aa</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>15695193dbf923007e5e9c66db9619ab</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>9b0411dfdbb923007e5e9c66db961991</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619aa</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>99695193dbf923007e5e9c66db9619aa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderMenus</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619aa</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>9d695193dbf923007e5e9c66db9619aa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>Travel Booking Application</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>0</offset>
+                <page display_value="Travel Booking Portal Page">9b0411dfdbb923007e5e9c66db961991</page>
+                <summary/>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                <sys_id>91695193dbf923007e5e9c66db9619ad</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619ad</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>11695193dbf923007e5e9c66db9619ae</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>Overview</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619ad</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>15695193dbf923007e5e9c66db9619ad</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderJavascript</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer_id</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619ad</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>19695193dbf923007e5e9c66db9619ad</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>a066bb690a0a0aa300d40d0cce7ed94f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>action</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619ad</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>1d695193dbf923007e5e9c66db9619ad</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>overview</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619ad</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>95695193dbf923007e5e9c66db9619ae</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>system</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619ad</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>99695193dbf923007e5e9c66db9619ae</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>9b0411dfdbb923007e5e9c66db961991</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone5</dropzone>
+                <offset>0</offset>
+                <page display_value="Travel Booking Portal Page">9b0411dfdbb923007e5e9c66db961991</page>
+                <summary/>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                <sys_id>91695193dbf923007e5e9c66db9619b1</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619b1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>11695193dbf923007e5e9c66db9619b3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>9b0411dfdbb923007e5e9c66db961991</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619b1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>15695193dbf923007e5e9c66db9619b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>a412995fdbb923007e5e9c66db961901</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619b1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>91695193dbf923007e5e9c66db9619b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619b1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>95695193dbf923007e5e9c66db9619b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619b1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>99695193dbf923007e5e9c66db9619b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619b1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>99695193dbf923007e5e9c66db9619b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>Travel Booking Requests by Status</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">91695193dbf923007e5e9c66db9619b1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>9d695193dbf923007e5e9c66db9619b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone4</dropzone>
+                <offset>0</offset>
+                <page display_value="Travel Booking Portal Page">9b0411dfdbb923007e5e9c66db961991</page>
+                <summary/>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                <sys_id>dd695193dbf923007e5e9c66db9619ae</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">dd695193dbf923007e5e9c66db9619ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>51695193dbf923007e5e9c66db9619af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>49689553dbf923007e5e9c66db961901</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">dd695193dbf923007e5e9c66db9619ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>5d695193dbf923007e5e9c66db9619b0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>9b0411dfdbb923007e5e9c66db961991</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">dd695193dbf923007e5e9c66db9619ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>d1695193dbf923007e5e9c66db9619b0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">dd695193dbf923007e5e9c66db9619ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>d5695193dbf923007e5e9c66db9619af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">dd695193dbf923007e5e9c66db9619ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>d5695193dbf923007e5e9c66db9619b0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>Travel Booking Requests by Priority</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">dd695193dbf923007e5e9c66db9619ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>d9695193dbf923007e5e9c66db9619af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-11-20 19:16:51">dd695193dbf923007e5e9c66db9619ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-11-21 03:16:51</sys_created_on>
+                        <sys_id>dd695193dbf923007e5e9c66db9619af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-11-21 03:16:51</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>
