@@ -5,38 +5,40 @@
         <condition/>
         <description/>
         <field>active</field>
-        <global>false</global>
+        <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Hide return field on load</name>
+        <name>Compare start and return date</name>
         <order/>
-        <script><![CDATA[function onLoad() {
+        <script><![CDATA[function onSubmit() {
    //Type appropriate comment here, and begin script below
-   if ( ! g_form.getBooleanValue("u_is_return")) {
-	   g_form.setDisplay("to",false); //destination
-	   //var gdw = new glidedialogwindow('Hello_Travel_Booking');
-	   //gdw.render();
-	   
-   }
+   var end = g_form.getValue("return_date");
+	var start = g_form.getValue("start_date");
+	var format = "yyyy-MM-dd";
+	var isEndBeforeStart = compareDates(start, format, end, format);
+	if(isEndBeforeStart){
+		g_form.addInfoMessage('The return date must be after start date.');
+		return false;
+	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-22 04:00:07</sys_created_on>
+        <sys_created_on>2018-11-24 22:15:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9d1ce263db7123007e5e9c66db9619dd</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>Hide return field on load</sys_name>
+        <sys_id>6aaaf06cdb02a3007e5e9c66db9619e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Compare start and return date</sys_name>
         <sys_overrides/>
         <sys_package display_value="Travel Booking Application" source="x_67438_travel_boo">1534704fdb3123007e5e9c66db9619a0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Travel Booking Application">1534704fdb3123007e5e9c66db9619a0</sys_scope>
-        <sys_update_name>sys_script_client_9d1ce263db7123007e5e9c66db9619dd</sys_update_name>
+        <sys_update_name>sys_script_client_6aaaf06cdb02a3007e5e9c66db9619e1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-24 22:12:08</sys_updated_on>
+        <sys_updated_on>2018-11-24 22:20:38</sys_updated_on>
         <table>x_67438_travel_boo_booking_requests</table>
-        <type>onLoad</type>
+        <type>onSubmit</type>
         <ui_type>0</ui_type>
-        <view>employee</view>
+        <view/>
     </sys_script_client>
 </record_update>
