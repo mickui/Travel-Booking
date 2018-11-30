@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Display Assigned To</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	//Type appropriate comment here, and begin script below
+	var theName = g_form.getReference('assigned_to',doAlert);
+	
+}
+
+function doAlert(theName) { //reference is passed into callback as first arguments
+	g_form.addErrorMessage('Caller is a VIP!');
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-30 03:01:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>47aba306db0223007e5e9c66db9619fd</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Display Assigned To</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Booking Application" source="x_67438_travel_boo">1534704fdb3123007e5e9c66db9619a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking Application">1534704fdb3123007e5e9c66db9619a0</sys_scope>
+        <sys_update_name>sys_script_client_47aba306db0223007e5e9c66db9619fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-30 04:01:29</sys_updated_on>
+        <table>x_67438_travel_boo_booking_requests</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
